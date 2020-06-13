@@ -31,3 +31,7 @@ class Hinhanh{
 }
 
 $img1 = new Hinhanh("test.JPG", "image", "480", "480", "123a", "abc");
+
+echo $img1->html();
+
+
