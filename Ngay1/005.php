@@ -32,3 +32,5 @@ $dautay1 = new  DauTay('dau tay', 'do');
 echo '<pre>';
 print_r($dautay1);
 echo '</pre>';
+echo $dautay1->message();
+
